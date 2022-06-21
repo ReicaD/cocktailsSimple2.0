@@ -1,35 +1,45 @@
 <mxfile host="65bd71144e">
     <diagram id="-6iq8A_GzVqjcIclheJv" name="Page-1">
-        <mxGraphModel dx="416" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="653" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="COCKTAILsSIMPLE" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;horizontal=1;fontStyle=1;verticalAlign=middle;gradientColor=#8C729C;gradientDirection=east;" vertex="1" parent="1">
+                <mxCell id="2" value="COCKTAILsSIMPLE" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;horizontal=1;fontStyle=1;verticalAlign=middle;gradientColor=#8C729C;gradientDirection=east;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="400" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Hero" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#2D7600;gradientColor=#D1B3FF;gradientDirection=north;" vertex="1" parent="1">
+                <mxCell id="4" value="Hero" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=#ffffff;strokeColor=#2D7600;gradientColor=#D1B3FF;gradientDirection=north;" parent="1" vertex="1">
                     <mxGeometry x="40" y="80" width="400" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Cards" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="Cards" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="40" y="200" width="400" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="CARD 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="230" width="180" height="120" as="geometry"/>
+                <mxCell id="6" value="CARD 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#15272A;strokeColor=#CCE5FF;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="240" width="100" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="CARD 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="230" width="180" height="120" as="geometry"/>
+                <mxCell id="7" value="CARD 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="110" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="8" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="370" width="390" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="IMAGE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="IMAGE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="50" y="370" width="180" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="ABOUT THE DRINK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="ABOUT THE DRINK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="274" y="390" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="FOOTER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="11" value="FOOTER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="35" y="490" width="400" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="110" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="CARD3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="240" width="110" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
