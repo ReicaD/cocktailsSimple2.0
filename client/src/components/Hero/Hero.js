@@ -1,4 +1,5 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
 
 const Hero = () => {
   return (
@@ -58,17 +59,19 @@ const Hero = () => {
                   </p>
                 </strong>
               </div>
-              <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
-                <img
-                  // src="https://tailus.io/sources/blocks/food-delivery/preview/images/food.webp"
-                  src="./introdp3.png"
-                  className="relative"
-                  alt="food illustration"
-                  loading="lazy"
-                  width="450000"
-                  height="55000"
-                />
-              </div>
+              <Slide right>
+                <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
+                  <img
+                    // src="https://tailus.io/sources/blocks/food-delivery/preview/images/food.webp"
+                    src="./introdp3.png"
+                    className="relative"
+                    alt="food illustration"
+                    loading="lazy"
+                    width="450000"
+                    height="55000"
+                  />
+                </div>
+              </Slide>
             </div>
           </div>
         </div>
