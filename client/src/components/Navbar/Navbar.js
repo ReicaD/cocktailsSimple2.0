@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,8 +8,8 @@ const Navbar = () => {
         <div class="container m-auto px-2 md:px-12 lg:px-7">
           <div class="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0">
             <div class="w-full px-6 flex justify-between lg:w-max md:px-0">
-              <a
-                href="https://tailus.io/blocks/hero-section"
+              <Link
+                to ="/"
                 aria-label="logo"
                 class="flex space-x-2 items-center"
               >
@@ -23,7 +24,7 @@ const Navbar = () => {
                 <span class="text-2xl font-bold text-yellow-900">
                   CocktailsSimple <span class="text-yellow-700"></span>
                 </span>
-              </a>
+              </Link>
 
               <button
                 aria-label="humburger"
@@ -63,12 +64,12 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/drinks"
                       class="block md:px-4 transition hover:text-yellow-700"
                     >
-                      {/* <span>Cart</span> */}
-                    </a>
+                      <span>Drinks</span>
+                    </Link>
                   </li>
                 </ul>
               </div>
