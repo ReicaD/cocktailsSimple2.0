@@ -5,20 +5,26 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Article from "./components/Article/Article";
 import Drinks from "./components/pages/Home/Drinks";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 // import Images from './components/Images/jennifer.png';
 
 function App() {
   return (
     <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/drinks" element={<Drinks />} />
-        </Routes>
-      </Router>
+      <nav style={{ margin: 10 }}>
+        <Link to="/home" style={{ padding: 5 }}>
+          Home
+        </Link>
+        <Link to="/drinks" style={{ padding: 5 }}>
+          Drinks
+        </Link>
+      </nav>
+      {/* //<Navbar /> */}
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/drinks" element={<Drinks />} />
+      </Routes>
     </div>
   );
 }
