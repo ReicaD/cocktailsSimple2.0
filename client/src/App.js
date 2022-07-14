@@ -7,6 +7,7 @@ import Article from "./components/Article/Article";
 import Drinks from "./components/pages/Home/Drinks";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
+import New from "./components/pages/New";
 // import Images from './components/Images/jennifer.png';
 
 function App() {
@@ -19,11 +20,13 @@ function App() {
         <Link to="/drinks" style={{ padding: 5 }}>
           Drinks
         </Link>
+        <Link to="new">New</Link>
       </nav>
       {/* //<Navbar /> */}
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/drinks" element={<Drinks />} />
+        <Route path="/drinks" element={<Drinks />}/>
+        <Route path="/new" element={<New/>}/>
       </Routes>
     </div>
   );

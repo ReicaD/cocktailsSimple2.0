@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import New from "../New";
 // import { useEffect } from "react";
 
 const Drinks = () => {
@@ -24,8 +25,14 @@ const Drinks = () => {
 
   return (
     <div>
-      Drinks lorem ipsum
-      <div>skdjd</div>
+      {newdrinks.map((x) => (
+        <div key={x.id}>
+          <h5>All People</h5>
+          <h2>
+            <p> company: {x.company.name}</p>
+          </h2>
+        </div>
+      ))}
     </div>
   );
 };
