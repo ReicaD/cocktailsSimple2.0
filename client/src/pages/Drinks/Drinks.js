@@ -14,7 +14,7 @@ const Drinks = () => {
         .then((res) => {
           //return res
           setnewdrinks(res.data);
-          console.log(newdrinks);
+        //  console.log(newdrinks);
         })
         .catch((err) => {
           console.log(err);
