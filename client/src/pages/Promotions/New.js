@@ -12,7 +12,7 @@ const New = () => {
         .get("https://jsonplaceholder.typicode.com/users")
         .then((res) => {
           setCatalog(res.data);
-          console.log(res);
+          // console.log(res);
         })
         .catch((err) => {
           console.log(err);
@@ -27,7 +27,7 @@ const New = () => {
         <div key={y.id}>
           <h5>All People</h5>
           <h2>
-            <p>company: {y.company.bs}</p>
+            <p>company: {y.company.name}</p>
           </h2>
         </div>
       ))}
