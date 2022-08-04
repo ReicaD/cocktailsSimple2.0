@@ -7,8 +7,11 @@ import Article from "./pages/Home/Components/Article/Article";
 import Drinks from "./pages/Drinks/Drinks";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import New from "./pages/Promotions/New";
-import About from "./pages/Home/Components/About/About";                                              
+import New from "./pages/Promotions/New"
+import About from "./pages/About/About"   
+import Introverts from "./pages/Home/Components/Cards/CategoryDrinks/Introverts";
+import Oldfashion from "./pages/Home/Components/Cards/CategoryDrinks/Oldfashion";                                      
+import Catalyzer from "./pages/Home/Components/Cards/CategoryDrinks/Catalyzer";
 // import Images from './components/Images/jennifer.png';
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
         <Route path="/drinks" element={<Drinks />}/>
         <Route path="/new" element={<New/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/Catalyzer" element={<Catalyzer/>}/>
+        <Route path="/Introverts" element={<Introverts/>}/>
+        <Route path="/Oldfashion" element={<Oldfashion/>}/>
       </Routes>
     </div>
   );

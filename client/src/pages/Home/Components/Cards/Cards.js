@@ -1,5 +1,6 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
+import { Link } from "react-router-dom";
 
 function Cards() {
   return (
@@ -34,7 +35,7 @@ function Cards() {
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
-                        Learn more
+                        <Link to="/Oldfashion">Learn more</Link>
                       </button>
                     </div>
                   </div>
@@ -58,7 +59,7 @@ function Cards() {
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <button className="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg">
-                        Learn more
+                        <Link to="/Introverts">Learn more</Link>
                       </button>
                     </div>
                   </div>
@@ -83,7 +84,7 @@ function Cards() {
                     </p>
                     <div className="flex items-center flex-wrap ">
                       <button className="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105  shadow-cla-blue px-4 py-1 rounded-lg">
-                        Learn more
+                        <Link to="/Catalyzer">Learn more</Link>
                       </button>
                     </div>
                   </div>

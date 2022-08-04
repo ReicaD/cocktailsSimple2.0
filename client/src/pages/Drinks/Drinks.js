@@ -10,11 +10,11 @@ const Drinks = () => {
   useEffect(() => {
     async function fetchData() {
       await axios
-        .get("https://jsonplaceholder.typicode.com/users/")
+        .get("www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka")
         .then((res) => {
           //return res
           setnewdrinks(res.data);
-        //  console.log(newdrinks);
+          console.log(newdrinks);
         })
         .catch((err) => {
           console.log(err);
@@ -25,11 +25,11 @@ const Drinks = () => {
 
   return (
     <div>
+      <h5>All People</h5>
       {newdrinks.map((x) => (
         <div key={x.id}>
-          <h5>All People</h5>
           <h2>
-            <p> company: {x.company.name}</p>
+            {/* <p> company: {x.company.name}</p> */}
           </h2>
         </div>
       ))}
@@ -38,3 +38,15 @@ const Drinks = () => {
 };
 
 export default Drinks;
+
+
+
+{/* <Cards>
+
+  calls API and then send the data
+
+<card1 magarita={state.magarita}/>
+<card2 vodka={state.vodka}/>
+<card3 gin={state.gin}/>
+
+</Cards> */}
