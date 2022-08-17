@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 
-const Promotions = ({ people }) => {
+const Promotions = () => {
   const [promo, setPromo] = useState({});
 
   useEffect(() => {
-    setPromo(people);
+    setPromo();
   }, []);
   return (
     <div>
-      <h1>{people.name}</h1>
+      <h1></h1>
     </div>
   );
 };

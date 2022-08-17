@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react'
 
-function Deal({ people }) {
+function Deal() {
 
     const[deals, setDeals ] = useState({})
-    console.log(deals)
+    console.log()
 
     useEffect(()=>{
-        setDeals(people)
+        setDeals()
     },[])
 
 
 
   return (
-    <div><p>{people.deal}</p>
+    <div><p></p>
     
     </div>
   )

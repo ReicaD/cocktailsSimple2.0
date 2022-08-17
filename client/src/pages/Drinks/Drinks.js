@@ -10,14 +10,14 @@ const Drinks = () => {
   useEffect(() => {
     async function fetchData() {
       await axios
-        .get("www.thecocktaildb.com/api/json/v1/1/filter.php?i=Vodka")
+        .get("https://jsonplaceholder.typicode.com/todos/")
         .then((res) => {
           //return res
           setnewdrinks(res.data);
           console.log(newdrinks);
         })
         .catch((err) => {
-          console.log(err);
+          console.log("Something went wrong here!",err);
         });
     }
     fetchData();
