@@ -1,5 +1,9 @@
 import React from "react";
 
+{/* <footer>
+    copyright &copy; Blog VereD 2022
+</footer> */}
+
 function Footer() {
   return (
     <div class="h-screen flex justify-center items-center">
@@ -35,10 +39,7 @@ function Footer() {
         </div>
 
         <div class="col-span-2 relative">
-          <img
-            src="./margaritas.jpg"
-            class="absolute bottom-0 right-0"
-          />
+          <img src="./margaritas.jpg" class="absolute bottom-0 right-0"/>
         </div>
       </card>
     </div>
