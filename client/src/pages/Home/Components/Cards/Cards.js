@@ -1,12 +1,13 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
 import { Link } from "react-router-dom";
+import Bounce from 'react-reveal/Bounce';
 
 function Cards() {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <Slide left>
+        <Bounce left>
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/3">
@@ -92,7 +93,7 @@ function Cards() {
               </div>
             </div>
           </div>
-        </Slide>
+        </Bounce>
       </section>
     </div>
   );
