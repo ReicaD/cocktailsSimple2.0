@@ -9,10 +9,10 @@ const New = () => {
   useEffect(() => {
     async function fetchData() {
       await axios
-        .get("https://jsonplaceholder.typicode.com/users")
+        .get("http://localhost:4000/api/all-blogs")
         .then((res) => {
           setCatalog(res.data);
-          // console.log(res);
+          console.log(res.data);
         })
         .catch((err) => {
           console.log(err);
@@ -27,7 +27,7 @@ const New = () => {
         <div key={y.id}>
           <h5>All People</h5>
           <h2>
-            <p>company: {y.company.name}</p>
+            <p>company: {y.actors}</p>
           </h2>
         </div>
       ))}

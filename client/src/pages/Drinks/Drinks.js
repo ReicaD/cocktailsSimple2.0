@@ -10,11 +10,11 @@ const Drinks = () => {
   useEffect(() => {
     async function fetchData() {
       await axios
-        .get("www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin")
+        .get("http://localhost:4000/api/all-blogs ")
         .then((res) => {
           //return res
           setnewdrinks(res.data);
-          console.log( "this is Data",newdrinks);
+          console.log("this is Data", newdrinks);
         })
         .catch((err) => {
           console.log("Something went wrong here!", err);
